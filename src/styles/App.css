@@ -1,0 +1,100 @@
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+* {
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.App {
+  margin-top: 55px;
+}
+
+#root, .container-fluid {
+  background: #e9f4f8;
+  min-height: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+/*FEED*/
+.list-picture-container {
+  height: 350px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, .075);
+}
+
+.list-picture {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.list-info-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-info-container button {
+  margin-right: 10px;
+}
+
+/*PROFILE*/
+.Profile {
+  margin-top: 95px;
+}
+
+/*NEW POST*/
+form {
+  margin-top: 95px;
+}
+
+.form-group {
+  margin-bottom: 35px;
+}
+
+/*MINIPROFILE*/
+.miniProfile-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.miniProfile-container img{
+  width: 200px;
+  height: 200px;
+}
+
+.miniProfile-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*DISCOVER*/
+.Discover span h5:first-child {
+    display: none;
+}
+.Discover img {
+  margin-top: 25px;
+}
+.Discover span {
+  margin-bottom: 25px;
+}
+.Discover a {
+  text-decoration: none;
+}
